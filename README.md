@@ -37,7 +37,7 @@ Page will contain list of filtered properties.
 
 Each property will have
 
-- image of the property,
+- main image of the property,
 - property price,
 - property address,
 - number of bedrooms,

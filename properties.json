@@ -1,0 +1,776 @@
+{
+  "property": [
+    {
+      "identifier": {
+        "obPropId": 20100625415001,
+        "fips": "15001",
+        "apn": "3940020110000",
+        "apnOrig": "3940020110000"
+      },
+      "lot": {
+        "lotSize1": 91
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "HI",
+        "line1": "946403 KAMAOA RD",
+        "line2": "NAALEHU, HI 96772",
+        "locality": "Naalehu",
+        "matchCode": "ExaZip",
+        "oneLine": "946403 KAMAOA RD, NAALEHU, HI 96772",
+        "postal1": "96772"
+      },
+      "location": {
+        "accuracy": "Zip5",
+        "elevation": 0,
+        "latitude": "19.055300",
+        "longitude": "-155.625490",
+        "distance": 0,
+        "geoid":
+          "CO15001,CS1591170,DB1500030,MT30004227,ND0000112585,ND0000112588,SB0000081682,SB0000081672,ZI96772"
+      },
+      "summary": {
+        "propclass": "Single Family Residence / Townhouse",
+        "propsubtype": "HOUSE",
+        "proptype": "SFR",
+        "yearbuilt": 2007,
+        "propLandUse": "SFR",
+        "propIndicator": "10",
+        "description":
+          "Lorem ipsum dolor sit amet, ut impetus inermis scripserit sed. Graeco inimicus no usu, id duo veri platonem. Per ne senserit convenire. Principes intellegat mei te, ut velit omnes sea. Erat definitiones sea id, vix modo pericula inciderint et.",
+        "price": 490000
+      },
+      "building": {
+        "size": {
+          "universalsize": 2512
+        },
+        "rooms": {
+          "bathstotal": 4,
+          "beds": 4
+        }
+      },
+      "vintage": {
+        "lastModified": "2018-1-24",
+        "pubDate": "2018-2-8"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 19798051515001,
+        "fips": "15001",
+        "apn": "3940020430000",
+        "apnOrig": "3940020430000"
+      },
+      "lot": {
+        "lotSize1": 31.8533
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "HI",
+        "line1": "946267 KAMAOA RD",
+        "line2": "NAALEHU, HI 96772",
+        "locality": "Naalehu",
+        "matchCode": "ExaZip",
+        "oneLine": "946267 KAMAOA RD, NAALEHU, HI 96772",
+        "postal1": "96772"
+      },
+      "location": {
+        "accuracy": "Zip5",
+        "elevation": 0,
+        "latitude": "19.061290",
+        "longitude": "-155.614710",
+        "distance": 0,
+        "geoid":
+          "CO15001,CS1591170,DB1500030,MT30004227,ND0000112585,ND0000112588,SB0000081682,SB0000081672,ZI96772"
+      },
+      "summary": {
+        "propclass": "Agricultural",
+        "propsubtype": "HOUSE",
+        "proptype": "AGRICULTURAL (NEC)",
+        "yearbuilt": 1986,
+        "propLandUse": "AGRICULTURAL (NEC)",
+        "propIndicator": "70",
+        "description":
+          "Eius utamur invidunt ei vim, magna viris ius at, per tantas putent eu. Eum eros quaeque eu, usu erant audire at, in nam propriae conceptam. Sea ad magna oportere ullamcorper, cum modus iriure adversarium et, facete impedit nominavi ex cum. Eu nam tale possim utamur, ea iusto partiendo eum, eos te rebum volutpat temporibus. Ut vel magna docendi, ea pri eruditi invidunt eleifend. Ea ludus labitur liberavisse ius, at eos aperiam mediocrem, eu tantas moderatius eum. Vim ut appareat prodesset.",
+        "price": "190000"
+      },
+      "building": {
+        "size": {
+          "universalsize": 504
+        },
+        "rooms": {
+          "bathstotal": 1,
+          "beds": 1
+        }
+      },
+      "vintage": {
+        "lastModified": "2018-1-24",
+        "pubDate": "2018-2-8"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 19795430915001,
+        "fips": "15001",
+        "apn": "3950120290000",
+        "apnOrig": "3950120290000"
+      },
+      "lot": {
+        "lotSize1": 25.8
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "HI",
+        "line1": "95-5440 MAMALAHOA HWY",
+        "line2": "NAALEHU, HI 96772",
+        "locality": "Naalehu",
+        "matchCode": "ExaStr",
+        "oneLine": "95-5440 MAMALAHOA HWY, NAALEHU, HI 96772",
+        "postal1": "96772"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0,
+        "latitude": "19.064022",
+        "longitude": "-155.574301",
+        "distance": 0,
+        "geoid":
+          "CO15001,CS1591170,DB1500030,MT30004227,ND0000112585,ND0000112589,ND0000112577,PL1553600,SB0000081672,SB0000081682,ZI96772"
+      },
+      "summary": {
+        "propclass": "Agricultural",
+        "propsubtype": "HOUSE",
+        "proptype": "AGRICULTURAL (NEC)",
+        "yearbuilt": 1978,
+        "propLandUse": "AGRICULTURAL (NEC)",
+        "propIndicator": "70",
+        "description":
+          "No laudem iuvaret pro, adhuc dicunt ea nam. Eu vim accusam mediocritatem. Per ut justo nonumy, diam unum interesset vis ex. Per id altera epicuri constituto, nibh assum adolescens pro cu. Eam congue dicant constituam ex, duo labore propriae definitiones an. Duo iudicabit scriptorem comprehensam an.",
+        "price": 340000
+      },
+      "building": {
+        "size": {
+          "universalsize": 2216
+        },
+        "rooms": {
+          "bathstotal": 2,
+          "beds": 3
+        }
+      },
+      "vintage": {
+        "lastModified": "2018-1-24",
+        "pubDate": "2018-2-8"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 19270412015001,
+        "fips": "15001",
+        "apn": "3950120270000",
+        "apnOrig": "3950120270000"
+      },
+      "lot": {
+        "lotSize1": 14.909
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "HI",
+        "line1": "95-2844 POHAKU RD",
+        "line2": "NAALEHU, HI 96772",
+        "locality": "Naalehu",
+        "matchCode": "ExaZip",
+        "oneLine": "95-2844 POHAKU RD, NAALEHU, HI 96772",
+        "postal1": "96772"
+      },
+      "location": {
+        "accuracy": "Zip5",
+        "elevation": 0,
+        "latitude": "19.078940",
+        "longitude": "-155.636240",
+        "distance": 0,
+        "geoid":
+          "CO15001,CS1591170,DB1500030,MT30004227,ND0000112585,ND0000112588,RS0000112573,SB0000081672,SB0000081682,ZI96772"
+      },
+      "summary": {
+        "propclass": "Single Family Residence / Townhouse",
+        "propsubtype": "HOUSE",
+        "proptype": "SFR",
+        "yearbuilt": 1985,
+        "propLandUse": "SFR",
+        "propIndicator": "10",
+        "description":
+          "Ei viris saperet est. Wisi ceteros per te. Mea ex commodo assentior adipiscing, ne vim feugait alienum. Mandamus scripserit cu ius, eam everti scaevola prodesset et, at vim iusto eruditi. Eu est invidunt intellegat.",
+        "price": "290000"
+      },
+      "building": {
+        "size": {
+          "universalsize": 3248
+        },
+        "rooms": {
+          "bathstotal": 4,
+          "beds": 2
+        }
+      },
+      "vintage": {
+        "lastModified": "2018-1-24",
+        "pubDate": "2018-2-8"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 14264235715001,
+        "fips": "15001",
+        "apn": "3780100930000",
+        "apnOrig": "3780100930000"
+      },
+      "lot": {
+        "lotSize1": 13.366
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "HI",
+        "line1": "78-6833 ALII DR",
+        "line2": "KAILUA KONA, HI 96740",
+        "locality": "Kailua Kona",
+        "matchCode": "ExaStr",
+        "oneLine": "78-6833 ALII DR, KAILUA KONA, HI 96740",
+        "postal1": "96740",
+        "postal2": "4475",
+        "postal3": "C002"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0,
+        "latitude": "19.571738",
+        "longitude": "-155.964695",
+        "distance": 0,
+        "geoid":
+          "CO15001,CS1592610,DB1500030,MT30004227,ND0000565475,ND0000569829,PL1521230,SB0000081865,SB0000081848,SB0000081679,ZI96740"
+      },
+      "summary": {
+        "propclass": "Apartment",
+        "propsubtype": "RESIDENTIAL",
+        "proptype": "APARTMENT",
+        "yearbuilt": 0,
+        "propLandUse": "APARTMENT",
+        "propIndicator": "22",
+        "description":
+          "Ei viris saperet est. Wisi ceteros per te. Mea ex commodo assentior adipiscing, ne vim feugait alienum. Mandamus scripserit cu ius, eam everti scaevola prodesset et, at vim iusto eruditi. Eu est invidunt intellegat.",
+        "price": "100000"
+      },
+      "building": {
+        "size": {
+          "universalsize": 2456
+        },
+        "rooms": {
+          "bathstotal": 3,
+          "beds": 2
+        }
+      },
+      "vintage": {
+        "lastModified": "2018-1-24",
+        "pubDate": "2018-2-8"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 5232430015001,
+        "fips": "15001",
+        "apn": "3780130030000",
+        "apnOrig": "3780130030000"
+      },
+      "lot": {
+        "lotSize1": 15.542
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "HI",
+        "line1": "78-6800 ALII DR",
+        "line2": "KAILUA KONA, HI 96740",
+        "locality": "Kailua Kona",
+        "matchCode": "ExaStr",
+        "oneLine": "78-6800 ALII DR, KAILUA KONA, HI 96740",
+        "postal1": "96740",
+        "postal2": "4400",
+        "postal3": "C002"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0,
+        "latitude": "19.573138",
+        "longitude": "-155.966272",
+        "distance": 0,
+        "geoid":
+          "CO15001,CS1592610,DB1500030,MT30004227,ND0000565475,ND0000569829,PL1521230,SB0000081679,SB0000081848,SB0000081865,ZI96740"
+      },
+      "summary": {
+        "propclass": "Apartment",
+        "propsubtype": "RESIDENTIAL",
+        "proptype": "APARTMENT",
+        "yearbuilt": 0,
+        "propLandUse": "APARTMENT",
+        "propIndicator": "22",
+        "description":
+          "Ei viris saperet est. Wisi ceteros per te. Mea ex commodo assentior adipiscing, ne vim feugait alienum. Mandamus scripserit cu ius, eam everti scaevola prodesset et, at vim iusto eruditi. Eu est invidunt intellegat.",
+        "price": "60000"
+      },
+      "building": {
+        "size": {
+          "universalsize": 345
+        },
+        "rooms": {
+          "bathstotal": 1,
+          "beds": 1
+        }
+      },
+      "vintage": {
+        "lastModified": "2018-1-24",
+        "pubDate": "2018-2-8"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 15535059215001,
+        "fips": "15001",
+        "apn": "3780100350000",
+        "apnOrig": "3780100350000"
+      },
+      "lot": {
+        "lotSize1": 30.331
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "HI",
+        "line1": "78-6739 ALII DR",
+        "line2": "KAILUA KONA, HI 96740",
+        "locality": "Kailua Kona",
+        "matchCode": "ExaStr",
+        "oneLine": "78-6739 ALII DR, KAILUA KONA, HI 96740",
+        "postal1": "96740"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0,
+        "latitude": "19.573258",
+        "longitude": "-155.966006",
+        "distance": 0,
+        "geoid":
+          "CO15001,CS1592610,DB1500030,MT30004227,ND0000565475,ND0000569829,PL1521230,SB0000081865,SB0000081848,SB0000081679,ZI96740"
+      },
+      "summary": {
+        "propclass": "Apartment",
+        "propsubtype": "COMMERCIAL",
+        "proptype": "APARTMENT",
+        "yearbuilt": 1980,
+        "propLandUse": "APARTMENT",
+        "propIndicator": "22",
+        "description":
+          "Ei viris saperet est. Wisi ceteros per te. Mea ex commodo assentior adipiscing, ne vim feugait alienum. Mandamus scripserit cu ius, eam everti scaevola prodesset et, at vim iusto eruditi. Eu est invidunt intellegat.",
+        "price": "300000"
+      },
+      "building": {
+        "size": {
+          "universalsize": 3457
+        },
+        "rooms": {
+          "bathstotal": 3,
+          "beds": 4
+        }
+      },
+      "vintage": {
+        "lastModified": "2018-1-24",
+        "pubDate": "2018-2-8"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 14879021515001,
+        "fips": "15001",
+        "apn": "3780100790000",
+        "apnOrig": "3780100790000"
+      },
+      "lot": {
+        "lotSize1": 15.466
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "HI",
+        "line1": "78-6980 KALUNA ST",
+        "line2": "KAILUA KONA, HI 96740",
+        "locality": "Kailua Kona",
+        "matchCode": "ExaStr",
+        "oneLine": "78-6980 KALUNA ST, KAILUA KONA, HI 96740",
+        "postal1": "96740",
+        "postal2": "2819",
+        "postal3": "C002"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0,
+        "latitude": "19.572994",
+        "longitude": "-155.953954",
+        "distance": 0,
+        "geoid":
+          "CO15001,CS1592610,DB1500030,MT30004227,ND0000565475,ND0000569828,PL1521230,RS0000569790,SB0000081848,SB0000081865,SB0000081679,ZI96740"
+      },
+      "summary": {
+        "propclass": "Apartment",
+        "propsubtype": "RESIDENTIAL",
+        "proptype": "APARTMENT",
+        "yearbuilt": 0,
+        "propLandUse": "APARTMENT",
+        "propIndicator": "22",
+        "description":
+          "Ei viris saperet est. Wisi ceteros per te. Mea ex commodo assentior adipiscing, ne vim feugait alienum. Mandamus scripserit cu ius, eam everti scaevola prodesset et, at vim iusto eruditi. Eu est invidunt intellegat.",
+        "price": "250000"
+      },
+      "building": {
+        "size": {
+          "universalsize": 345
+        },
+        "rooms": {
+          "bathstotal": 2,
+          "beds": 1
+        }
+      },
+      "vintage": {
+        "lastModified": "2018-1-24",
+        "pubDate": "2018-2-8"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 18700726115001,
+        "fips": "15001",
+        "apn": "3780100780000",
+        "apnOrig": "3780100780000"
+      },
+      "lot": {
+        "lotSize1": 20.813
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "HI",
+        "line1": "78-6957 KAMEHAMEHA III RD",
+        "line2": "KAILUA KONA, HI 96740",
+        "locality": "Kailua Kona",
+        "matchCode": "ExaStr",
+        "oneLine": "78-6957 KAMEHAMEHA III RD, KAILUA KONA, HI 96740",
+        "postal1": "96740",
+        "postal2": "2528",
+        "postal3": "C002"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0,
+        "latitude": "19.571987",
+        "longitude": "-155.960474",
+        "distance": 0,
+        "geoid":
+          "CO15001,CS1592610,DB1500030,MT30004227,ND0000565475,ND0000569828,PL1521230,SB0000081679,SB0000081865,SB0000081848,ZI96740"
+      },
+      "summary": {
+        "propclass": "Apartment",
+        "propsubtype": "RESIDENTIAL",
+        "proptype": "APARTMENT",
+        "yearbuilt": 0,
+        "propLandUse": "APARTMENT",
+        "propIndicator": "22",
+        "description":
+          "Ei viris saperet est. Wisi ceteros per te. Mea ex commodo assentior adipiscing, ne vim feugait alienum. Mandamus scripserit cu ius, eam everti scaevola prodesset et, at vim iusto eruditi. Eu est invidunt intellegat.",
+        "price": "380000"
+      },
+      "building": {
+        "size": {
+          "universalsize": 7892
+        },
+        "rooms": {
+          "bathstotal": 4,
+          "beds": 4
+        }
+      },
+      "vintage": {
+        "lastModified": "2018-1-24",
+        "pubDate": "2018-2-8"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 15535060115001,
+        "fips": "15001",
+        "apn": "3780100680000",
+        "apnOrig": "3780100680000"
+      },
+      "lot": {
+        "lotSize1": 12.846
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "HI",
+        "line1": "78-6834 ALII DR",
+        "line2": "KAILUA KONA, HI 96740",
+        "locality": "Kailua Kona",
+        "matchCode": "ExaStr",
+        "oneLine": "78-6834 ALII DR, KAILUA KONA, HI 96740",
+        "postal1": "96740"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0,
+        "latitude": "19.571431",
+        "longitude": "-155.964727",
+        "distance": 0,
+        "geoid":
+          "CO15001,CS1592610,DB1500030,MT30004227,ND0000565475,ND0000569828,PL1521230,SB0000081848,SB0000081679,SB0000081865,ZI96740"
+      },
+      "summary": {
+        "propclass": "Apartment",
+        "propsubtype": "RESIDENTIAL",
+        "proptype": "APARTMENT",
+        "yearbuilt": 0,
+        "propLandUse": "APARTMENT",
+        "propIndicator": "22",
+        "description":
+          "Ei viris saperet est. Wisi ceteros per te. Mea ex commodo assentior adipiscing, ne vim feugait alienum. Mandamus scripserit cu ius, eam everti scaevola prodesset et, at vim iusto eruditi. Eu est invidunt intellegat.",
+        "price": "345000"
+      },
+      "building": {
+        "size": {
+          "universalsize": 2345
+        },
+        "rooms": {
+          "bathstotal": 4,
+          "beds": 3
+        }
+      },
+      "vintage": {
+        "lastModified": "2018-1-24",
+        "pubDate": "2018-2-8"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 2329242515001,
+        "fips": "15001",
+        "apn": "3780100520000",
+        "apnOrig": "3780100520000"
+      },
+      "lot": {
+        "lotSize1": 11.624
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "HI",
+        "line1": "78-6842 ALII DR",
+        "line2": "KAILUA KONA, HI 96740",
+        "locality": "Kailua Kona",
+        "matchCode": "ExaStr",
+        "oneLine": "78-6842 ALII DR, KAILUA KONA, HI 96740",
+        "postal1": "96740",
+        "postal2": "2414",
+        "postal3": "C002"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0,
+        "latitude": "19.571135",
+        "longitude": "-155.964180",
+        "distance": 0,
+        "geoid":
+          "CO15001,CS1592610,DB1500030,MT30004227,ND0000565475,ND0000569828,PL1521230,SB0000081865,SB0000081848,SB0000081679,ZI96740"
+      },
+      "summary": {
+        "propclass": "Apartment",
+        "propsubtype": "RESIDENTIAL",
+        "proptype": "APARTMENT",
+        "yearbuilt": 0,
+        "propLandUse": "APARTMENT",
+        "propIndicator": "22",
+        "description":
+          "Ei viris saperet est. Wisi ceteros per te. Mea ex commodo assentior adipiscing, ne vim feugait alienum. Mandamus scripserit cu ius, eam everti scaevola prodesset et, at vim iusto eruditi. Eu est invidunt intellegat.",
+        "price": "19000"
+      },
+      "building": {
+        "size": {
+          "universalsize": 1452
+        },
+        "rooms": {
+          "bathstotal": 2,
+          "beds": 1
+        }
+      },
+      "vintage": {
+        "lastModified": "2018-1-24",
+        "pubDate": "2018-2-8"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 62672215001,
+        "fips": "15001",
+        "apn": "3780200280000",
+        "apnOrig": "3780200280000"
+      },
+      "lot": {
+        "lotSize1": 16.197
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "HI",
+        "line1": "78-261 MANUKAI ST",
+        "line2": "KAILUA KONA, HI 96740",
+        "locality": "Kailua Kona",
+        "matchCode": "ExaStr",
+        "oneLine": "78-261 MANUKAI ST, KAILUA KONA, HI 96740",
+        "postal1": "96740",
+        "postal2": "2538",
+        "postal3": "C002"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0,
+        "latitude": "19.565420",
+        "longitude": "-155.964647",
+        "distance": 0,
+        "geoid":
+          "CO15001,CS1592610,DB1500030,MT30004227,ND0000565475,ND0000569828,PL1521230,RS0000569789,SB0000081865,SB0000081848,SB0000081679,ZI96740"
+      },
+      "summary": {
+        "propclass": "Apartment",
+        "propsubtype": "RESIDENTIAL",
+        "proptype": "APARTMENT",
+        "yearbuilt": 0,
+        "propLandUse": "APARTMENT",
+        "propIndicator": "22",
+        "description":
+          "Ei viris saperet est. Wisi ceteros per te. Mea ex commodo assentior adipiscing, ne vim feugait alienum. Mandamus scripserit cu ius, eam everti scaevola prodesset et, at vim iusto eruditi. Eu est invidunt intellegat.",
+        "price": "490000"
+      },
+      "building": {
+        "size": {
+          "universalsize": 9988
+        },
+        "rooms": {
+          "bathstotal": 4,
+          "beds": 5
+        }
+      },
+      "vintage": {
+        "lastModified": "2018-1-24",
+        "pubDate": "2018-2-8"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 20428104415001,
+        "fips": "15001",
+        "apn": "3780100580000",
+        "apnOrig": "3780100580000"
+      },
+      "lot": {
+        "lotSize1": 11.256
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "HI",
+        "line1": "78-7190 KALEIOPAPA ST",
+        "line2": "KAILUA KONA, HI 96740",
+        "locality": "Kailua Kona",
+        "matchCode": "ExaStr",
+        "oneLine": "78-7190 KALEIOPAPA ST, KAILUA KONA, HI 96740",
+        "postal1": "96740",
+        "postal2": "2576",
+        "postal3": "C002"
+      },
+      "location": {
+        "accuracy": "Street",
+        "elevation": 0,
+        "latitude": "19.557963",
+        "longitude": "-155.960855",
+        "distance": 0,
+        "geoid":
+          "CO15001,CS1592610,DB1500030,MT30004227,ND0000565475,ND0000045479,PL1521230,SB0000081679,SB0000081865,SB0000081848,ZI96740"
+      },
+      "summary": {
+        "propclass": "Apartment",
+        "propsubtype": "RESIDENTIAL",
+        "proptype": "APARTMENT",
+        "yearbuilt": 0,
+        "propLandUse": "APARTMENT",
+        "propIndicator": "22",
+        "description":
+          "Ei viris saperet est. Wisi ceteros per te. Mea ex commodo assentior adipiscing, ne vim feugait alienum. Mandamus scripserit cu ius, eam everti scaevola prodesset et, at vim iusto eruditi. Eu est invidunt intellegat.",
+        "price": "90000"
+      },
+      "building": {
+        "size": {
+          "universalsize": 199
+        },
+        "rooms": {
+          "bathstotal": 1,
+          "beds": 1
+        }
+      },
+      "vintage": {
+        "lastModified": "2018-1-24",
+        "pubDate": "2018-2-8"
+      }
+    },
+    {
+      "identifier": {
+        "obPropId": 21641229715001,
+        "fips": "15001",
+        "apn": "3750190490000",
+        "apnOrig": "3750190490000"
+      },
+      "lot": {
+        "lotSize1": 29.147
+      },
+      "address": {
+        "country": "US",
+        "countrySubd": "HI",
+        "line1": "75-6060 KUAKINI HWY",
+        "line2": "KAILUA KONA, HI 96740",
+        "locality": "Kailua Kona",
+        "matchCode": "ExaZip",
+        "oneLine": "75-6060 KUAKINI HWY, KAILUA KONA, HI 96740",
+        "postal1": "96740",
+        "postal2": "2284",
+        "postal3": "C010"
+      },
+      "location": {
+        "accuracy": "Zip9",
+        "elevation": 0,
+        "latitude": "19.625740",
+        "longitude": "-155.981180",
+        "distance": 0,
+        "geoid":
+          "CO15001,CS1592610,DB1500030,MT30004227,ND0000565411,ND0000565475,PL1515700,SB0000081848,SB0000081865,SB0000081679,ZI96740"
+      },
+      "summary": {
+        "propclass": "Apartment",
+        "propsubtype": "RESIDENTIAL",
+        "proptype": "APARTMENT",
+        "yearbuilt": 0,
+        "propLandUse": "APARTMENT",
+        "propIndicator": "22",
+        "description":
+          "Ei viris saperet est. Wisi ceteros per te. Mea ex commodo assentior adipiscing, ne vim feugait alienum. Mandamus scripserit cu ius, eam everti scaevola prodesset et, at vim iusto eruditi. Eu est invidunt intellegat.",
+        "price": "100000"
+      },
+      "building": {
+        "size": {
+          "universalsize": 1987
+        },
+        "rooms": {
+          "bathstotal": 2,
+          "beds": 3
+        }
+      },
+      "vintage": {
+        "lastModified": "2018-1-24",
+        "pubDate": "2018-2-8"
+      }
+    }
+  ]
+}

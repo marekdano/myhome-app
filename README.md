@@ -12,8 +12,7 @@ The application will consist of
 - a search results listing page
 - and a property details page.
 
-The application will include some tests to validate routes and paths within the
-app.
+The application will include some tests to validate routes and paths within the app.
 
 Use your own generated.json file for the data or any public web API.
 
@@ -41,7 +40,7 @@ Each property will have
 - property price,
 - property address,
 - number of bedrooms,
-- property type and
+- property type,
 - link to get to the details page
 
 #### Property Details Page Specifications
@@ -54,7 +53,7 @@ The details page will have:
 - property price,
 - info about number of bedrooms,
 - property address,
-- property type and
-- desciption
+- property type,
+- description
 
 The images should be displayed nicely through carousel or gallery.

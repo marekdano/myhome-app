@@ -26,7 +26,7 @@ The form will have search button so when you click on it you will be directed to
 
 Ideally you should have your search results route containing the info for filtering the list
 e.g.
-`http://search-results/{{propertyType}}/{{maxPrice}}/{{minBeds}}/`
+`http://example.com/search-results/{{propertyType}}/{{maxPrice}}/{{minBeds}}/`
 
 #### Search Results Specifications
 

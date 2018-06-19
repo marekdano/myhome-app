@@ -3,9 +3,10 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/pages/home.component';
 
 const appRoutes: Routes = [
-  { path: '/', component:  HomeComponent }
-  //  { path: '/search-results/:propertyType/:maxPrice/:minBeds', component:  SearchResultsComponent }
-  //  { path: '/property-details/:propertyId', component:  PropertyDetailsComponent }
+  { path: 'home', component:  HomeComponent }
+  { path: '',   redirectTo: '/home', pathMatch: 'full' },
+  //  { path: 'search-results/:propertyType/:maxPrice/:minBeds', component:  SearchResultsComponent }
+  //  { path: 'property-details/:propertyId', component:  PropertyDetailsComponent }
 ];
 
 @NgModule({

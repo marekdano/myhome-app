@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/pages/home.component';
 
-import { MatToolbarModule } from '@angular/material';
+import { MatToolbarModule, MatSelectModule } from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -17,6 +17,7 @@ import { MatToolbarModule } from '@angular/material';
     BrowserModule,
     BrowserAnimationsModule,
     MatToolbarModule,
+    MatSelectModule,
     AppRoutingModule
   ],
   providers: [],

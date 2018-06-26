@@ -1,4 +1,11 @@
 
 <mat-toolbar>
-  <span>Search property</span>
+  <div>Search property</div>
+  <mat-form-field>
+    <mat-select placeholder="Property Type">
+      <mat-option *ngFor="let type of propertyType" [value]="type.value">
+        {{type.viewValue}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
 </mat-toolbar>

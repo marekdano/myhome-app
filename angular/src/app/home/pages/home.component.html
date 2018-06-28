@@ -1,6 +1,6 @@
 
-<mat-toolbar>
-  <div>Search property</div>
+<div id="search-box">
+  <h4 class="">Search property</h4>
   <mat-form-field>
     <mat-select placeholder="Property Type">
       <mat-option *ngFor="let type of propertyType" [value]="type.value">
@@ -8,4 +8,6 @@
       </mat-option>
     </mat-select>
   </mat-form-field>
-</mat-toolbar>
+</div>
+
+

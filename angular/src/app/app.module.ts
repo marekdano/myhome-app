@@ -7,11 +7,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/pages/home.component';
 
 import { MatSelectModule, MatButtonModule } from '@angular/material';
+import { PropertiesComponent } from './properties/pages/properties.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    PropertiesComponent
   ],
   imports: [
     BrowserModule,

@@ -1,28 +1,30 @@
 
 <div id="search-box">
   <h4 class="">Search property</h4>
-  <mat-form-field class="form-control">
-    <mat-select placeholder="Property Type">
-      <mat-option *ngFor="let type of propertyTypes" [value]="type.value">
-        {{type.viewValue}}
-      </mat-option>
-    </mat-select>
-  </mat-form-field>
-  <mat-form-field class="form-control">
-    <mat-select placeholder="Max Price">
-      <mat-option *ngFor="let type of prices" [value]="type.value">
-        {{type.viewValue}}
-      </mat-option>
-    </mat-select>
-  </mat-form-field>
-  <mat-form-field class="form-control">
-    <mat-select placeholder="Max Beds">
-      <mat-option *ngFor="let type of beds" [value]="type.value">
-        {{type.viewValue}}
-      </mat-option>
-    </mat-select>
-  </mat-form-field>
-  <button mat-raised-button>Search</button>
+  <form [formGroup]="searchForm" (ngSubmit)="onSubmit($event)">
+    <mat-form-field class="form-control">
+      <mat-select placeholder="Property Type" formControlName="propertyType">
+        <mat-option *ngFor="let type of propertyTypes" [value]="type.value">
+          {{type.viewValue}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field class="form-control">
+      <mat-select placeholder="Max Price" formControlName="maxPrice">
+        <mat-option *ngFor="let type of prices" [value]="type.value">
+          {{type.viewValue}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field class="form-control">
+      <mat-select placeholder="Max Beds" formControlName="maxBeds">
+        <mat-option *ngFor="let type of beds" [value]="type.value">
+          {{type.viewValue}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+    <button mat-raised-button type="submit" [disabled]="searchForm.invalid">Search</button>
+  </form>
 </div>
 
 

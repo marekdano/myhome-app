@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 
 interface SelectItem {
   value: string | number;
@@ -14,8 +15,9 @@ export class HomeComponent implements OnInit {
   propertyTypes: SelectItem[];
   prices: SelectItem[];
   beds: SelectItem[];
+  searchForm: FormGroup;
 
-  constructor() { }
+  constructor(private fb: FormBuilder) { }
 
   ngOnInit() {
     this.propertyTypes = [
@@ -37,6 +39,17 @@ export class HomeComponent implements OnInit {
       {value: 2, viewValue: '2'},
       {value: 3, viewValue: '3'}
     ];
+
+    this.searchForm = this.fb.group({
+      propertyType: ['', Validators.required],
+      maxPrice: ['', Validators.required],
+      maxBeds: ['', Validators.required]
+    });
+  }
+
+  onSubmit(e) {
+    e.preventDefault();
+    console.log(this.searchForm.value);
   }
 
 }

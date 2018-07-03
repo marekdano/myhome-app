@@ -8,6 +8,7 @@ import { HomeComponent } from './home/pages/home.component';
 
 import { MatSelectModule, MatButtonModule } from '@angular/material';
 import { PropertiesComponent } from './properties/pages/properties.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { PropertiesComponent } from './properties/pages/properties.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    ReactiveFormsModule,
     MatSelectModule,
     MatButtonModule,
     AppRoutingModule

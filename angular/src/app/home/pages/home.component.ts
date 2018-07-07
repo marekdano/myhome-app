@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
 
 interface SelectItem {
   value: string | number;
@@ -17,7 +18,10 @@ export class HomeComponent implements OnInit {
   beds: SelectItem[];
   searchForm: FormGroup;
 
-  constructor(private fb: FormBuilder) { }
+  constructor(
+    private fb: FormBuilder,
+    private router: Router
+  ) { }
 
   ngOnInit() {
     this.propertyTypes = [
@@ -49,7 +53,11 @@ export class HomeComponent implements OnInit {
 
   onSubmit(e) {
     e.preventDefault();
-    console.log(this.searchForm.value);
+    const formValue = this.searchForm.value;
+
+    // TODO: make a request to get the list of properties based on search form data
+
+    this.router.navigate(['search-results', formValue.propertyType, formValue.maxPrice, formValue.maxBeds]);
   }
 
 }

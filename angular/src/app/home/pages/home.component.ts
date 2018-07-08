@@ -47,17 +47,14 @@ export class HomeComponent implements OnInit {
     this.searchForm = this.fb.group({
       propertyType: ['', Validators.required],
       maxPrice: ['', Validators.required],
-      maxBeds: ['', Validators.required]
+      minBeds: ['', Validators.required]
     });
   }
 
   onSubmit(e) {
     e.preventDefault();
     const formValue = this.searchForm.value;
-
-    // TODO: make a request to get the list of properties based on search form data
-
-    this.router.navigate(['search-results', formValue.propertyType, formValue.maxPrice, formValue.maxBeds]);
+    this.router.navigate(['search-results', formValue.propertyType, formValue.maxPrice, formValue.minBeds]);
   }
 
 }

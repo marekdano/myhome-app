@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import * as data from '../../../../../properties.json';
 
 @Component({
   selector: 'app-properties',
@@ -6,10 +8,25 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./properties.component.css']
 })
 export class PropertiesComponent implements OnInit {
+  properties: any;
 
-  constructor() { }
+  constructor(private route: ActivatedRoute) { }
 
   ngOnInit() {
+    const propertyType = this.route.snapshot.paramMap.get('propertyType');
+    const maxPrice = this.route.snapshot.paramMap.get('maxPrice');
+    const minBeds = this.route.snapshot.paramMap.get('minBeds');
+
+    this.properties = this.getResultOfPropertiesBy(propertyType, +maxPrice, +minBeds);
+    console.log(this.properties);
+  }
+
+  private getResultOfPropertiesBy(propertyType: string, maxPrice: number, minBeds: number) {
+    return data['properties'].filter(p => {
+      return p.summary.propclass.toLowerCase() === propertyType &&
+             +p.summary.price <= maxPrice &&
+             p.building.rooms.beds >= minBeds;
+    });
   }
 
 }

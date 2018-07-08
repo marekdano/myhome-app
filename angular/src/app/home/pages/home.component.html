@@ -17,7 +17,7 @@
       </mat-select>
     </mat-form-field>
     <mat-form-field class="form-control">
-      <mat-select placeholder="Max Beds" formControlName="maxBeds">
+      <mat-select placeholder="Min Beds" formControlName="minBeds">
         <mat-option *ngFor="let type of beds" [value]="type.value">
           {{type.viewValue}}
         </mat-option>

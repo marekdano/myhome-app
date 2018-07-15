@@ -18,7 +18,6 @@ export class PropertiesComponent implements OnInit {
     const minBeds = this.route.snapshot.paramMap.get('minBeds');
 
     this.properties = this.getResultOfPropertiesBy(propertyType, +maxPrice, +minBeds);
-    console.log(this.properties);
   }
 
   private getResultOfPropertiesBy(propertyType: string, maxPrice: number, minBeds: number) {

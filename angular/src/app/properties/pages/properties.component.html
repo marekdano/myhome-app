@@ -1,8 +1,24 @@
 
 <div *ngIf="properties.length;else noMessage">
-  <div *ngFor="let property of properties">
-    <img src="https://placeimg.com/320/240/arch">
-    {{property.address.country}}
+  <div *ngFor="let property of properties" class="card">
+    <!-- <img src="https://placeimg.com/320/240/arch"> -->
+    <div class="thumb-image img-responsive">
+      <img src="http://lorempixel.com/160/120/city"/>
+    </div>
+    <div>
+      <div>
+        ${{property.summary.price | number}}
+      </div>
+      <div>
+        Address  {{property.address.oneLine}}
+      </div>
+      <div>
+        {{property.building.rooms.beds}} beds
+      </div>
+      <div>
+        {{property.building.rooms.bathstotal}} baths
+      </div>
+    </div>
   </div>
 </div>
 

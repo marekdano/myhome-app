@@ -1,0 +1,14 @@
+
+.card {
+  margin: 1.4em auto;
+  padding: 1em;
+  max-width: 650px;
+  border: 1px solid grey;
+  display: grid;
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

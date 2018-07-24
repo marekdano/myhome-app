@@ -1,10 +1,31 @@
 
+.main-title {
+  margin: 3em auto;
+  max-width: 650px;
+}
+
 .card {
   margin: 1.4em auto;
-  padding: 1em;
+  padding: .4em .4em .24em .4em;
   max-width: 650px;
   border: 1px solid grey;
+  border-radius: 3px;
   display: grid;
+  grid-template-columns: 164px auto
+}
+
+.prop-details {
+  padding: .4em;
+}
+
+.price {
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.address {
+  margin: .4rem 0;
+  color: lightskyblue;
 }
 
 .img-responsive {
